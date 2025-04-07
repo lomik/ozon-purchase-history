@@ -32,8 +32,7 @@ export default defineManifest({
     },
   ],
   permissions: [
-    'storage', 'tabs',
-    "cookies", "indexedDB",
+    "cookies",
   ],
   host_permissions: [
     "https://*.ozon.ru/*"
